@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T10:21:41.697Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Safari/605.1.15" version="24.4.3" etag="Sl33S7S8bVBDcvGahvi4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T10:46:07.766Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Safari/605.1.15" etag="j8QmgYSEmVCrdB9485sX" version="24.4.3" type="github">
   <diagram name="Page-1" id="XiEJCUWeXeQEktwUtwR5">
-    <mxGraphModel>
+    <mxGraphModel dx="2537" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RLeRC0V33BxJo2-axMRS-2" value="用户操作" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.web;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="686.3" width="60" height="47.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-3" value="PG数据库" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;" vertex="1" parent="1">
+          <mxGeometry x="532.8" y="560" width="48.6" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-4" value="机器学习" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.bots;" vertex="1" parent="1">
+          <mxGeometry x="730" y="680" width="60" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-5" value="流式处理" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.stream;" vertex="1" parent="1">
+          <mxGeometry x="320" y="673.6999999999999" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-6" value="Hadoop" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;" vertex="1" parent="1">
+          <mxGeometry x="532.8" y="673.7" width="48.6" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-12" value="ES集群" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.segments;" vertex="1" parent="1">
+          <mxGeometry x="527.1" y="800" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-13" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="410" y="630" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-14" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="697.4000000000001" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-15" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="410" y="770" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-16" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="697.4000000000001" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-18" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="697.4000000000001" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RLeRC0V33BxJo2-axMRS-19" target="RLeRC0V33BxJo2-axMRS-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-19" value="前端数据" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.channels;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="590" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RLeRC0V33BxJo2-axMRS-20" target="RLeRC0V33BxJo2-axMRS-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-20" value="后端数据" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.channels;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="740" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-21" value="kafka" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.automotive2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="682.4" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-22" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="695.0000000000001" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-23" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="697.4000000000001" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-24" value="打卡关闭&lt;div&gt;操作记录&lt;/div&gt;&lt;div&gt;行为日志&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLeRC0V33BxJo2-axMRS-26" value="接口报文" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
